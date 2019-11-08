@@ -1,0 +1,63 @@
+nav{
+    background: transparent !important;
+    box-shadow: none;
+    width: auto;
+    height: auto;
+}
+
+.brand-logo {
+    margin-left: 75px;
+    padding: 50px 20px 0 20px;
+}
+
+.home{
+    background-image: url("../Images/bg.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    padding: 3%;
+    padding-left: 7%;
+}
+
+.home img{
+    height: 10vh;
+    width: 20vh;
+}
+
+.home i {
+    transform: scaleX(-1);
+}
+
+.home .btn {
+    background-color: #FFD506;
+    font-size: 3vh;
+    top: 45%;
+    left: 23%;
+}
+
+.about_us {
+    background-size: cover;
+    background-position: center;
+    height: 90vh;
+    padding: 3%;
+    padding-left: 7%;
+}
+
+.about_us .container {
+    padding-top: 10%;
+    margin-left: 3%;
+}
+
+.abt_content {
+    font-size: 2.5vh;
+}
+
+.abt_content .btn {
+    background-color: #FFD506;
+    font-size: 3vh;
+    float: right;
+}
+
+.about_us img {
+    width: 100%;
+}
