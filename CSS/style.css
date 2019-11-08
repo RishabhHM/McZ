@@ -1,4 +1,28 @@
-nav{
+@font-face {
+    font-family: "Galano";
+    src: url("../fonts/Galano-Grotesque-Bold.otf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Helvetica";
+    src: url("../fonts/Helvetica.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.section {
+    padding: 0 !important;
+}
+
+/*HOME PAGE*/
+nav {
     background: transparent !important;
     box-shadow: none;
     width: auto;
@@ -10,18 +34,17 @@ nav{
     padding: 50px 20px 0 20px;
 }
 
-.home{
-    background-image: url("../Images/bg.jpg");
+.home {
+    background-image: url("../Images/10264.jpg");
     background-size: cover;
     background-position: center;
     height: 100vh;
     padding: 3%;
-    padding-left: 7%;
 }
 
-.home img{
-    height: 10vh;
-    width: 20vh;
+.home img {
+    height: 60px;
+    width: auto;
 }
 
 .home i {
@@ -32,8 +55,32 @@ nav{
     background-color: #FFD506;
     font-size: 3vh;
     top: 45%;
-    left: 23%;
+    left: 30%;
 }
+
+.btn {
+    text-transform: none !important;
+    font-family: 'Galano';
+}
+.btn:hover, .btn-large:hover {
+    background-color: rgba(255, 213, 4, 0.993) !important;
+}
+
+i.medium {
+    font-size: 3rem !important;
+}
+
+.kz-hold-and-press {
+    text-transform: uppercase;
+    position: absolute;
+    top: 55%;
+    left: 44%;
+    font-weight: 500;
+}
+
+/*HOME PAGE ENDS*/
+
+/*ABOUT US PAGE*/
 
 .about_us {
     background-size: cover;
@@ -54,10 +101,15 @@ nav{
 
 .abt_content .btn {
     background-color: #FFD506;
-    font-size: 3vh;
-    float: right;
+    font-size: 2vh;
 }
 
 .about_us img {
-    width: 100%;
+    margin-top: 50px;
+    height:600px;
+    width: auto;
+}
+
+.kz-rendering h3 {
+    font-family: 'Galano';
 }
