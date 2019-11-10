@@ -22,12 +22,14 @@
 <body>
 
     <div class="mainbag">
-        
+
         <div vs-anchor="firstview" class="section mainview" id="section0">
             <section class="kz-home">
                 <div class="home">
                     <img class="left" src="../Images/valence (2)1 copy.png" alt="">
-                    <a href="#"><i class="material-icons black-text right medium kz-hamburger-icon">notes</i></a>
+                    <div class="nav-toggle">
+                        <div class="icon"></div>
+                    </div>
                     <a class="btn waves-effect waves-dark btn-large black-text kz-enter-btn">Enter the Showroom</a>
                     <p class="kz-hold-and-press">Press and Hold</p>
                 </div>
@@ -42,8 +44,10 @@
                             <div class="container kz-rendering">
                                 <h3><b>Real Time Rendering</b></h3>
                                 <section class="abt_content">
-                                    <p>The biggest challenge a client faces is that he never really understands the product just with the
-                                        rendered images and walkthrough videos. RTR is proudly India's first most advanced
+                                    <p>The biggest challenge a client faces is that he never really understands the
+                                        product just with the
+                                        rendered images and walkthrough videos. RTR is proudly India's first most
+                                        advanced
                                         innovative marketing tool that solves this problem.</p><br><br>
                                     <a class="btn waves-effect waves-dark btn-large black-text"><i
                                             class="material-icons right large">arrow_forward</i><b>How we do
@@ -51,7 +55,7 @@
                                 </section>
                             </div>
                         </div>
-                        
+
                         <div class="col s6 kz-tablet-mockup">
                             <img src="../Images/mockup.png" alt="">
                         </div>
@@ -59,23 +63,24 @@
                 </div>
             </section>
         </div>
-        
+
         <div vs-anchor="thirdview" class="mainview section" id="section2">
             <section class="kz-why-us">
                 <div class="why_us">
                     <div class="container kz-rendering">
                         <h3><b>Why Choose Us?</b></h3><br>
-                        <section class="why_us_content">            
+                        <section class="why_us_content">
                             <div class="row">
-                                
+
                                 <div class="col s12 m6 l4">
                                     <div class="card">
                                         <div class="card-content black-text">
                                             <span class="card-title"><b>End User Phsychology</b></span>
                                         </div>
                                         <div class="card_input card-content black-text">
-                                            <p>An interactive gamified engagement solution for the end user. Designed for a feel good 
-                                            phsychological result.</p>
+                                            <p>An interactive gamified engagement solution for the end user. Designed
+                                                for a feel good
+                                                phsychological result.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -86,9 +91,11 @@
                                             <span class="card-title"><b>Interactive and Gamified</b></span>
                                         </div>
                                         <div class="card_input card-content black-text">
-                                            <p>The one who interacts better can learn better, bus faster. This tool is self 
-                                            explanatory. It is designed for the users to virtually walk around. Thus addressing all
-                                            the unanswered questions.</p>
+                                            <p>The one who interacts better can learn better, bus faster. This tool is
+                                                self
+                                                explanatory. It is designed for the users to virtually walk around. Thus
+                                                addressing all
+                                                the unanswered questions.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -99,19 +106,20 @@
                                             <span class="card-title"><b>Modular</b></span>
                                         </div>
                                         <div class="card_input card-content black-text">
-                                            <p>Connect, engage and enchant your customers. Don't just make sales, make relationships!
+                                            <p>Connect, engage and enchant your customers. Don't just make sales, make
+                                                relationships!
                                             </p>
                                         </div>
                                     </div>
                                 </div>
-                            
-                            </div>   
+
+                            </div>
                         </section>
                     </div>
                 </div>
-            </section>      
+            </section>
         </div>
-        
+
     </div>
 
 
@@ -148,6 +156,11 @@
             afterChange: null,
             beforeResize: null,
             afterResize: null
+        });
+    </script>
+    <script>
+        $('.nav-toggle').click(function () {
+            $('body').toggleClass('nav-open');
         });
     </script>
 </body>
