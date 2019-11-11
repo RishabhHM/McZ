@@ -1,0 +1,227 @@
+@font-face {
+    font-family: "Galano";
+    src: url("../fonts/Galano-Grotesque-Bold.otf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Helvetica";
+    src: url("../fonts/Helvetica.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+.section {
+    padding: 0 !important;
+}
+
+/*HOME PAGE*/
+
+nav {
+    background: transparent !important;
+    box-shadow: none;
+    width: auto;
+    height: auto;
+}
+
+.brand-logo {
+    margin-left: 75px;
+    padding: 50px 20px 0 20px;
+}
+
+.home {
+    background-image: url("../Images/10264.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    padding: 3%;
+}
+
+.home img {
+    height: 60px;
+    width: auto;
+}
+
+.home i {
+    transform: scaleX(-1);
+}
+
+.home .btn {
+    background-color: #FFD506;
+    font-size: 3vh;
+    top: 45%;
+    left: 30%;
+}
+
+.btn {
+    text-transform: none !important;
+    font-family: 'Galano';
+}
+
+.btn:hover, .btn-large:hover {                                          /*change*/
+    background-color: rgba(255, 213, 4, 0.993) !important;
+}
+
+i.medium {
+    font-size: 3rem !important;
+}
+
+.kz-hold-and-press {
+    text-transform: uppercase;
+    position: absolute;
+    top: 55%;
+    left: 44%;
+    font-weight: 500;
+}
+
+/*HOME PAGE ENDS*/
+
+/*ABOUT US PAGE*/
+
+.about_us {
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    padding: 3%;
+    padding-left: 7%;
+}
+
+.about_us .container {
+    padding-top: 10%;
+    margin-left: 3%;
+}
+
+.abt_content {
+    font-size: 2.5vh;
+}
+
+.abt_content .btn {
+    background-color: #FFD506;
+    font-size: 2vh;
+}
+
+.about_us img {
+    margin-top: 50px;
+    height: auto;
+    width: 100%;
+}
+
+.kz-rendering h3 {
+    font-family: 'Galano';
+}
+
+/*ABOUT US PAGE ENDS*/
+
+/*WHY CHOOSE US PAGE*/
+
+.why_us {
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    padding: 3%;
+    padding-left: 7%;
+    padding-right: 0%;
+}
+
+.why_us .container {
+    padding-top: 5%;
+    padding-right: 5%;                          /*change*/
+    width: 100%;
+}
+
+.why_us .card {
+    height: 50vh;
+    width: 45vh;
+    border-radius: 2vh;
+    background: #f3f5f8;
+    box-shadow: 0 15px 0 0 rgba(255, 213, 6, 1);
+
+}
+
+.why_us .card:hover {
+    box-shadow: 0 25px 0 0 rgba(255, 213, 6, 1);
+}
+
+.why_us .card-title {
+    height: 50%;
+    text-align: center;
+    font-family: 'Galano';
+    font-size: 1%;
+}
+
+.card_input {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.5vh;
+}
+
+/*WHY CHOOSE US PAGE ENDS*/
+
+/*FOOTER PAGE*/
+
+.pg_footer {
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    padding-top: 10%;
+    padding-left: 0%;
+    padding-right: 20%;
+    z-index: 2;
+}
+
+.design {
+    /* background-image: url('../Images/ftr_img.jpg'); */
+    height: 35vh;
+    width: 70vh;
+    z-index: 0;
+}
+
+.pg_footer .container {
+    padding-top: 5%;
+    padding-right: 10%;
+    margin-left: 0%;
+    height: 100%;
+    background-color: #101010;
+    /* z-index: 2; */
+    width: 100%;
+    padding-top: 10%;
+}
+
+.cnt_header {
+    opacity: 0.5;
+    margin-bottom: 10%;
+}
+
+.cnt_info {
+    color: #fff;
+    margin-bottom: 20%;
+    font-size: 2.5vh;
+    font-family: Arial, Helvetica, sans-serif; 
+}
+
+.cnt_info img {
+    width: 7%;
+    align-self: auto;
+}
+
+.pg_footer a {
+    color: #fff;
+}
+
+.pg_footer a:hover {
+    color: #039be5;
+    text-decoration: underline;
+}
+
+.ftr_info h3 {
+    margin-top: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10vh;
+}
+
+/*FOOTER PAGE ENDS*/
